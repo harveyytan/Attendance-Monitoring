@@ -1,0 +1,32 @@
+<ion-content >
+  <ion-content [fullscreen]="true">
+    <ion-icon routerLink="/start" name="caret-back-outline"></ion-icon>       
+    <div class="container">
+      <img src="/assets/icon/clip.jpg">
+
+    <div id="header">
+      <h1>W E L C O M E</h1>
+      <h1>B A C K !</h1>
+
+    </div>
+      
+   
+      <form id="#form">
+          <ion-item shape="round" lines="full">
+            <ion-label shape="round" position="floating">Email</ion-label>
+            <ion-input type="text" required></ion-input>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-label position="floating">Password</ion-label>
+            <ion-input shape="round" type="password" required></ion-input>
+          </ion-item>
+          <ion-button (click)="tryLogin()" expand="block" color="medium" shape="round">Login</ion-button>
+        <ion-row>
+          <ion-col>
+            <a [routerLink]="['/forgot-password']" class="small-text">Forgot Password?</a>
+          </ion-col>
+        </ion-row>
+      </form>
+
+    </div>
+    </ion-content>

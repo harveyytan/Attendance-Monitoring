@@ -1,0 +1,23 @@
+ion-content{
+    --background: #f8f6f1;
+}
+ion-toolbar{
+    padding-top: 10px;
+   
+
+    ion-title{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: left;
+padding-left: 1px;
+color:#81b8a8;
+font-size: xx-large;
+    }
+}
+
+ion-card{
+    
+    background-color: whitesmoke;
+    height: 800%;
+    margin: 15px;
+
+  }

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap);
+
+.flex-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+
+.container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    color: black;
+    font-style: inherit;    
+    padding-bottom: 10%;
+    font-size: xx-large;
+    h7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15px;
+        color: black;
+        font-style: inherit;    
+        padding-bottom: 0%;
+        font-size: xx-large;
+    }
+}
+
+.container img {
+    height: 80vw; 
+    width: 80vw; 
+   border: 2px solid #fff;
+   display: inline-block;
+    padding-left: 20%;
+
+}
+
+ion-content{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --background: #f8f6f1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: xxx-large;
+}
+ 

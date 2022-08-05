@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title fill ="clear" color = "dark">SAMPLE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>Hi, {{name}}</p>
+
+  <span [hidden] ="isReleased">Hidden Information</span>
+
+  <ul *ngFor = "let p of person">
+    <li>{{p.name}}</li>
+    <li>{{p.age}}</li>
+  </ul>
+
+  <ion-card *ngFor = "let p of person">
+    <ion-card-header>
+      <ion-card-title>{{p.name}} , {{p.age}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>

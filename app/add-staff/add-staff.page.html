@@ -1,0 +1,40 @@
+<ion-header class ="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <DIV id="header">
+    <h1>Register</h1>
+    <h2>Kindly fill out the information needed.</h2>
+  </DIV>
+
+    <ion-list>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Your Name" [(ngMode)]="your_name"></ion-input>
+      </ion-item>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Last Name" [(ngMode)]="last_name"></ion-input>
+      </ion-item>
+      <ion-item class ="ion-margin-bottom">
+        <ion-select interface="popover" [(ngMode)]="gender" placeholder="Gender">
+          <ion-select-option value="f">Female</ion-select-option>
+          <ion-select-option value="m">Male</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Phone Number" [(ngMode)]="pNumber"></ion-input>
+      </ion-item>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Address" [(ngMode)]="address"></ion-input>
+      </ion-item>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Section" [(ngMode)]="section"></ion-input>
+      </ion-item>
+      <ion-button expand="block" class="no-padding" shape="round" (click)="addStaff()">SUBMIT</ion-button>
+    </ion-list>
+  
+</ion-content>

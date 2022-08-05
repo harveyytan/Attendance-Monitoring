@@ -1,0 +1,24 @@
+<ion-header class ="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons>
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <DIV id="header">
+    <h1>VIEW STAFF</h1>
+  </DIV>
+
+    <ion-list>
+      <ion-item class ="ion-margin-bottom"> 
+        <ion-input type ="text" placeholder="Staff Name" [(ngMode)]="email_address"></ion-input>
+      </ion-item>
+      <ion-item> 
+        <ion-input type ="password" placeholder="Password" [(ngMode)]="pass"></ion-input>
+      </ion-item>
+      <ion-button expand="block" class="no-padding" shape="round" (click)="tryStaff()">SUBMIT</ion-button>
+    </ion-list>
+  
+</ion-content>

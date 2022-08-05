@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap);
+
+.flex-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #32493c;
+    font-style: inherit;    
+    padding-bottom: 0%;
+    font-size: xxx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container img {
+    height: 95vw; 
+    width: 85vw; 
+   display: inline-block;
+   padding-top: 12%; 
+   padding-left: 14%;
+
+}
+
+ion-content{
+    --background: #f8f6f1;
+}
+
+#form{
+    margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+

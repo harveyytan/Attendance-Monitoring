@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot ="end">
+      <ion-button (click)="signout1()">Signout</ion-button>
+    </ion-buttons>
+    <ion-icon routerLink="/front" size="medium"name="caret-back-outline"></ion-icon>       
+        <h4>DASHBOARD</h4>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-content [fullscreen]="true">
+
+<div class="middleBox">
+  <div class="firstDiv">
+    <img src="/assets/icon/addstudent.jpg">
+    <h6>Add Student</h6>
+    <ion-button (click)="tryRegister()" color="medium">Click here</ion-button>
+
+  </div>
+  <div class="secondDiv">
+    <img src="/assets/icon/viewstudent.jpg">
+    <h6>View Student</h6>
+    <ion-button color="medium" (click)="viewStudent()">Click here</ion-button>
+  </div>
+</div>
+
+<div class="middleBox">
+    <div class="thirdDiv">
+      <img src="/assets/icon/attendance.jpg">
+      <h6>Attendance of Student</h6>
+      <ion-button routerLink="/attendance" color="medium">Click here</ion-button>
+  </div>
+</div>
+
+<div class="middleBox">
+  <div class="firstDiv">
+    <img src="/assets/icon/addstaff.jpg">
+    <h6>Add User/Staff</h6>
+    <ion-button (click)="addStaff()" color="medium">Click here</ion-button>
+  </div>
+  <div class="secondDiv">
+    <img src="/assets/icon/viewstaff.jpg">
+    <h6>View User/Staff</h6>
+    <ion-button  color="medium" (click)="staffLog()">Click here</ion-button>
+  </div>
+</div>
